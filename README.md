@@ -76,17 +76,17 @@ file="D:\\OneDrive\\Excel\\Loan-usha.xlsx"
 python test_loan_calculator.py
 
 
-🔍 Code Highlights
+🔍 Code Highlights:
 
-📥 Reading Data from Excel
+ Reading Data from Excel
 
-🌐 Sending Data to Web Application
-
-
-✅ Validation Logic
+Sending Data to Web Application
 
 
-📝 Writing Result to Excel
+ Validation Logic
+
+
+Writing Result to Excel
 
 
 ⭐ Conclusion
