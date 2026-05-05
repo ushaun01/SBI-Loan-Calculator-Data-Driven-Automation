@@ -13,11 +13,11 @@ The automation script interacts with the live SBI Home Loan Calculator, reads mu
  🚀 Technologies Used
 
 * Python
-* 
+ 
 * Selenium WebDriver
-* 
+  
 * OpenPyXL (Excel Handling)
-* 
+  
 * Excel (Test Data Source)
 
 🎯 Objective
