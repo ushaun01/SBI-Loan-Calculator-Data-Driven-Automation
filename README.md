@@ -1,98 +1,183 @@
-🧪SBI-Loan-Calculator-Data-Driven-Automation  
+🧪 SBI Loan Calculator Data-Driven Automation Project
 
- 📌 Project Overview
+📌 Project Overview
 
-This is a mini project demonstrating data-driven testing.
+This project demonstrates a real-time **Data-Driven Test Automation Framework** using Python and Selenium WebDriver.
 
-This project demonstrates a real-time data-driven test automation approach using Selenium with Python.
+The automation script interacts with the live SBI Home Loan Calculator application, reads multiple datasets from an Excel file, performs EMI calculations, validates generated results, and writes execution status back into Excel.
 
-The automation script interacts with the live SBI Home Loan Calculator, reads multiple test datasets from an Excel file, performs calculations, and validates the EMI results.
+The project showcases practical implementation of:
 
+- Selenium Automation
+- 
+- Data-Driven Testing (DDT)
+- 
+- Excel Handling using OpenPyXL
+- 
+- Dynamic Result Validation
 
+---
 
- 🚀 Technologies Used
+🚀 Technologies Used
 
-* Python
- 
-* Selenium WebDriver
+- Python
+- 
+- Selenium WebDriver
+- 
+- OpenPyXL
+- 
+- Excel
+- 
+- CSV
+
+---
+
+🎯 Project Objectives
+
+- Automate EMI calculation validation
   
-* OpenPyXL (Excel Handling)
+- Implement Data-Driven Testing approach
   
-* Excel (Test Data Source)
+- Read test data from Excel sheets
+  
+- Validate actual vs expected EMI values
+  
+- Store execution results back into Excel
 
-🎯 Objective
-
-Automate EMI calculation validation
-
-Implement Data-Driven Testing (DDT)
-
-Use Excel as a test data source
-
-Validate application results dynamically
-
+---
 
  📂 Project Structure
 
+```bash
+SBI-Loan-Calculator-Data-Driven-Automation/
+│
 ├── test_loan_calculator.py
-
 ├── XLUtilities.py
-
 ├── Loan-usha.xlsx
-
 ├── Loan-usha.csv
-
 ├── README.md
+```
+
+---
 
 🔧 Key Features
 
-* Reads test data from Excel file
+✔ Reads multiple test datasets from Excel
 
-* Performs form input automation on SBI Loan Calculator
+✔ Automates SBI Loan Calculator using Selenium
 
-* Captures EMI result dynamically
+✔ Performs EMI calculation validation
 
-* Compares actual vs expected EMI
+✔ Compares Actual EMI vs Expected EMI
 
-* Writes test results back to Excel
+✔ Writes Pass/Fail results into Excel
 
-* Highlights results (Pass = Green, Fail = Red)
+✔ Highlights results:
 
+- Green → Pass
+  
+- Red → Fail
 
+✔ Supports reusable Excel utility functions
 
+---
 
- ▶️ How to Run
+ ▶️ How to Run the Project
 
-1. Install dependencies:
+1️⃣ Install Required Packages
 
+```bash
 pip install selenium openpyxl
+```
 
-2. Update file path in script:
+---
 
+2️⃣ Update Excel File Path
 
+Modify the Excel file path inside the script:
+
+```python
 file="D:\\OneDrive\\Excel\\Loan-usha.xlsx"
+```
 
-3. Run the script:
+---
 
+3️⃣ Execute the Script
+
+```bash
 python test_loan_calculator.py
+```
 
+---
 
-🔍 Code Highlights:
+🔍 Functional Workflow
 
- Reading Data from Excel
+📥 Read Data from Excel
 
-Sending Data to Web Application
+The framework reads:
 
+- Loan Amount
+  
+- Interest Rate
+  
+- Loan Tenure
+  
+- Expected EMI
 
- Validation Logic
+from Excel sheets dynamically.
 
+---
+ 🌐 Perform Web Automation
 
-Writing Result to Excel
+The script:
 
+- Launches browser
+  
+- Opens SBI Loan Calculator
+  
+- Enters loan details
+  
+- Calculates EMI
 
-⭐ Conclusion
+---
 
-This project simulates real-world testing by validating multiple datasets against a live application using a data-driven testing approach, making it a strong foundation for automation frameworks.
+ ✅ Validation Logic
 
+- Captures Actual EMI from application
+
+- Compares with Expected EMI from Excel
+  
+- Marks test result as Pass or Fail
+
+---
+
+### 📝 Write Results to Excel
+
+Execution results are automatically updated into Excel sheets with color formatting.
+
+---
+
+⭐ Project Outcome
+
+This project provides hands-on experience in implementing a real-world **Data-Driven Testing Framework** using Selenium and Python.
+
+It demonstrates practical automation skills including:
+
+- Test data management
+  
+- Dynamic validation
+  
+- Excel integration
+  
+- Reusable utility methods
+
+---
 👩‍💻 Author
 
-Usha Nazare
+### Usha Nazare
+
+- Mechanical Engineering Graduate
+  
+- QA Automation Enthusiast
+  
+- Skilled in Selenium, Python, PyTest, API Testing, and Data-Driven Frameworks
