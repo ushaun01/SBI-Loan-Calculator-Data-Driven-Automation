@@ -9,11 +9,11 @@ The automation script interacts with the live SBI Home Loan Calculator applicati
 The project showcases practical implementation of:
 
 - Selenium Automation
-- 
+  
 - Data-Driven Testing (DDT)
-- 
+  
 - Excel Handling using OpenPyXL
-- 
+  
 - Dynamic Result Validation
 
 ---
