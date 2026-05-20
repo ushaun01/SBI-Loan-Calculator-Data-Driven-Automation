@@ -21,13 +21,13 @@ The project showcases practical implementation of:
 🚀 Technologies Used
 
 - Python
-- 
+  
 - Selenium WebDriver
-- 
+  
 - OpenPyXL
-- 
+  
 - Excel
-- 
+  
 - CSV
 
 ---
